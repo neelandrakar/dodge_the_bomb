@@ -20,6 +20,7 @@ class _PopBoxState extends State<PopBox> {
   clickFun(){
     if(!is_clicked && !has_blast){
 
+      //when is_bomb is false
       if(!widget.is_bomb) {
         setState(() {
           box_color = Colors.green;
